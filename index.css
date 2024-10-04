@@ -1,0 +1,113 @@
+html{
+	height: 100%;
+	margin: 0px;
+	overflow: hidden;
+	user-select: none;
+	background-color: #d3dfeb;
+}
+body {
+	height: 100%;
+	margin: 0px;
+}
+
+.region {
+	width: 19vw;
+	float: left;
+	margin-left: 0.8vw;
+	margin-top: .8vw;
+	text-align: center;
+	font-size: 3vw;
+	background-color: #293541;
+	color: #ddd;
+	text-shadow: 2px 0 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black;
+	font-family: sans-serif;
+}
+.banner {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	float: left;
+	height: 6vw;
+}
+.details {
+	width: 80vw;
+	margin-left: 10vw;
+	margin-top: .8vw;
+	height: 100px;
+	background-color: orange;
+	float: left;
+}
+.location {
+	float: left;
+	width: 1.6vw;
+	height: 1.6vw;
+	margin-left: 0.27272727272vw;
+	margin-top: 0.27272727272vw;
+	margin-bottom: 0.27272727272vw;;
+	background-color: red;
+	cursor: pointer;
+	box-shadow: 0 .05vw 0 0 black inset, .05vw 0 0 0 black inset, -.05vw 0 0 0 black inset, 0 -.05vw 0 0 black inset;
+}
+.location:hover {
+	z-index: 3000;
+	box-shadow: 0 .05vw 0 0 yellow inset, .05vw 0 0 0 yellow inset, -.05vw 0 0 0 yellow inset, 0 -.05vw 0 0 yellow inset;
+}
+
+#skybanner {
+	background-image: url("images/banners/BiomeBannerSpace.png");
+}
+#solarbanner {
+	background-image: url("images/banners/BiomeBannerSolarEclipse.png");
+}
+#pumpkinbanner {
+	background-image: url("images/banners/BiomeBannerPumpkinMoon.png");
+}
+#frostbanner {
+	background-image: url("images/banners/BiomeBannerFrostMoon.png");
+}
+#snowbanner {
+	background-image: url("images/banners/BiomeBannerSnow.png");
+}
+#surface1banner {
+	background-image: url("images/banners/BiomeBannerForest.png");
+}
+#surface2banner {
+	background-image: url("images/banners/BiomeBannerForest.png");
+}
+#surface3banner {
+	background-image: url("images/banners/BiomeBannerForest.png");
+}
+#oceanbanner {
+	background-image: url("images/banners/BiomeBannerOcean.png");
+}
+#dungeonbanner {
+	background-image: url("images/banners/BiomeBannerDungeon.png");
+}
+#evilbanner {
+	background-image: url("images/banners/BiomeBannerEvil.png");
+}
+#undergroundbanner {
+	background-image: url("images/banners/BiomeBannerUnderground.png");
+}
+#hallowbanner {
+	background-image: url("images/banners/BiomeBannerHallow.png");
+}
+#junglebanner {
+	background-image: url("images/banners/BiomeBannerUndergroundJungle.png");
+}
+#underworldbanner {
+	background-image: url("images/banners/BiomeBannerUnderworld.png");
+}
+#ugevilbanner {
+	background-image: url("images/banners/BiomeBannerUndergroundCorruption.png");
+}
+#cavernbanner {
+	background-image: url("images/banners/BiomeBannerCavern.png");
+}
+#ughallowbanner {
+	background-image: url("images/banners/BiomeBannerUndergroundHallow.png");
+}
+#jungletemplebanner {
+	background-image: url("images/banners/BiomeBannerJungleTemple.png");
+}
