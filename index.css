@@ -1,20 +1,16 @@
 html{
-	height: 100%;
-	margin: 0px;
-	overflow: hidden;
 	user-select: none;
 	background-color: #d3dfeb;
 }
 body {
-	height: 100%;
 	margin: 0px;
 }
 
 .region {
-	width: 19vw;
+	width: 19.4vw;
 	float: left;
-	margin-left: 0.8vw;
-	margin-top: .8vw;
+	margin-left: .4vw;
+	margin-top: .4vw;
 	text-align: center;
 	font-size: 3vw;
 	background-color: #293541;
@@ -40,11 +36,10 @@ body {
 }
 .location {
 	float: left;
-	width: 1.6vw;
-	height: 1.6vw;
-	margin-left: 0.27272727272vw;
-	margin-top: 0.27272727272vw;
-	margin-bottom: 0.27272727272vw;;
+	width: 1.7vw;
+	height: 1.7vw;
+	margin-left: 0.21818181818vw;
+	margin-bottom: 0.21818181818vw;;
 	background-color: red;
 	cursor: pointer;
 	box-shadow: 0 .05vw 0 0 black inset, .05vw 0 0 0 black inset, -.05vw 0 0 0 black inset, 0 -.05vw 0 0 black inset;
