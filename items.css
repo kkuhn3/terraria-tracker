@@ -1,0 +1,74 @@
+.setting {
+	width: 2.15555555556vw;
+	height: 2.15555555556vw;
+	float: left;
+	cursor: pointer;
+	background-size: contain;
+}
+
+.notImageImage {
+	color: silver;
+	font-size: 1vw;
+	text-align: center;
+	line-height: 2.15555555556vw;
+	box-shadow: 0 1px 0 0 #d3dfeb inset, 1px 0 0 0 #d3dfeb inset, -1px 0 0 0 #d3dfeb inset, 0 -1px 0 0 #d3dfeb inset;
+	cursor: auto;
+}
+
+.item {
+	width: 2.15555555556vw;
+	height: 2.15555555556vw;
+	float: left;
+	cursor: pointer;
+	background-size: contain;
+	filter: grayscale(100%);
+	background-color: #293541;
+}
+.itemchecked {
+	filter: grayscale(0%);
+}
+
+#itemdesc {
+	width: 100%;
+	height: 3.6vw;
+	float: left;
+	font-size: 1.25vw;
+	line-height: 3.6vw;
+	text-align: center;
+	color: silver;
+}
+
+#goal._0 {
+	background-image: URL("images/achievements/Buckets of Bolts.png");
+}
+#goal._1 {
+	background-image: URL("images/achievements/The Great Southern Plantkill.png");
+}
+#goal._2 {
+	background-image: URL("images/achievements/Lihzahrdian Idol.png");
+}
+#goal._3 {
+	background-image: URL("images/achievements/Fae Flayer.png");
+}
+#goal._4 {
+	background-image: URL("images/achievements/Obsessive Devotion.png");
+}
+#goal._5 {
+	background-image: URL("images/achievements/Champion of Terraria.png");
+}
+#goal._6 {
+	background-image: URL("images/achievements/Infinity +1 Sword.png");
+}
+
+#achievements._0 {
+	background-image: URL("images/items/achivements_0.png");
+}
+#achievements._1 {
+	background-image: URL("images/items/achivements_1.png");
+}
+#achievements._2 {
+	background-image: URL("images/items/achivements_2.png");
+}
+#achievements._3 {
+	background-image: URL("images/items/achivements_3.png");
+}

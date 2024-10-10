@@ -1,11 +1,34 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="index.css">
-		<title>Boxes</title>
+		<link rel="stylesheet" type="text/css" href="items.css">
+		<script src="static/types.js"></script>
+		<script src="style.js"></script>
+		<title>Terraria Tracker</title>
 	</head>
 	<body>
 		<div class="region">
-			Settings eventually
+			<img id="goal" class="setting _0" onclick="goalOnClick();">
+			<img id="achievements" class="setting _0" onclick="chievOnClick();">
+			<div id="CHECK_CHECKED" class="setting notImageImage">0</div>
+			<div id="CHECK_LOGICAL" class="setting notImageImage">50</div>
+			<div id="CHECK_TOTAL" class="setting notImageImage">300</div>
+			<img id="Eye of Cthulhu" class="item">
+			<img id="Evil Boss" class="item">
+			<img id="Goblin Army" class="item">
+			<img id="Queen Bee" class="item">
+
+			<img id="Skeletron" class="item">
+			<img id="Hardmode" class="item">
+			<img id="Pirate Invasion" class="item">
+			<img id="The Twins" class="item">
+			<img id="The Destroyer" class="item">
+			<img id="Skeletron Prime" class="item">
+			<img id="Plantera" class="item">
+			<img id="Golem" class="item">
+			<img id="Frost Legion" class="item">
+
+			<div id="itemdesc"> </div>
 		</div>
 		<div class="region">
 			<div id="skybanner" class="banner">
@@ -13,15 +36,17 @@
 			</div>
 			<div id="Into Orbit" class="location">
 			</div>
-			<div id="Eye of Cthulhu" class="location">
+			<div id="Eye on You" class="location">
 			</div>
 			<div id="Head in the Clouds" class="location">
 			</div>
-			<div id="Martian Madness" class="location">
+			<div id="Tin-Foil Hatter" class="location">
 			</div>
-			<div id="Moon Lord" class="location">
+			<div id="Champion of Terraria" class="location">
 			</div>
 			<div id="Sick Throw" class="location">
+			</div>
+			<div id="Infinity +1 Sword" class="location">
 			</div>
 		</div>
 		<div class="region">
@@ -64,14 +89,14 @@
 			</div>
 			<div id="Ice Scream" class="location">
 			</div>
-			<div id="Frost Legion" class="location">
+			<div id="Do You Want to Slay a Snowman" class="location">
 			</div>
 		</div>
 		<div class="region">
 			<div id="snowbanner" class="banner">
 				Snow
 			</div>
-			<div id="Deerclops" class="location">
+			<div id="An Eye For An Eye" class="location">
 			</div>
 			<div id="Slayer of Worlds" class="location">
 			</div>
@@ -130,17 +155,17 @@
 			<div id="surface3banner" class="banner">
 				Surface
 			</div>
-			<div id="King Slime" class="location">
+			<div id="Slippery Shinobi" class="location">
 			</div>
 			<div id="Sticky Situation" class="location">
 			</div>
 			<div id="The Cavalry" class="location">
 			</div>
-			<div id="Goblin Army" class="location">
+			<div id="Goblin Punter" class="location">
 			</div>
 			<div id="Boots of the Hero" class="location">
 			</div>
-			<div id="It Can Talk?!" class="location">
+			<div id="It Can Talk!" class="location">
 			</div>
 			<div id="Real Estate Agent" class="location">
 			</div>
@@ -148,7 +173,7 @@
 			</div>
 			<div id="Old One's Army Tier 2" class="location">
 			</div>
-			<div id="Old One's Army Tier 3" class="location">
+			<div id="Hero of Etheria" class="location">
 			</div>
 		</div>
 		<div class="region">
@@ -157,30 +182,30 @@
 			</div>
 			<div id="Servant-in-Training" class="location">
 			</div>
-			<div id="10 Fishing Quests" class="location">
+			<div id="Good Little Slave" class="location">
 			</div>
 			<div id="Trout Monkey" class="location">
-			</div>
-			<div id="Glorious Golden Pole" class="location">
 			</div>
 			<div id="Fast and Fishious" class="location">
 			</div>
 			<div id="Supreme Helper Minion!" class="location">
 			</div>
-			<div id="Pirate Invasion" class="location">
+			<div id="Glorious Golden Pole" class="location">
 			</div>
-			<div id="Duke Fishron" class="location">
+			<div id="Walk the Plank" class="location">
+			</div>
+			<div id="Fish Out of Water" class="location">
 			</div>
 		</div>
 		<div class="region">
 			<div id="dungeonbanner" class="banner">
 				Dungeon
 			</div>
-			<div id="Skeletron" class="location">
+			<div id="Boned" class="location">
 			</div>
 			<div id="Dungeon Heist" class="location">
 			</div>
-			<div id="Skeletron Prime" class="location">
+			<div id="Bona Fide" class="location">
 			</div>
 			<div id="Robbing the Grave" class="location">
 			</div>
@@ -188,9 +213,9 @@
 			</div>
 			<div id="Rainbows and Unicorns" class="location">
 			</div>
-			<div id="Lunatic Cultist" class="location">
+			<div id="Obsessive Devotion" class="location">
 			</div>
-			<div id="Lunar Events" class="location">
+			<div id="Star Destroyer" class="location">
 			</div>
 		</div>
 		<div class="region">
@@ -243,16 +268,16 @@
 			</div>
 			<div id="Prismancer" class="location">
 			</div>
-			<div id="Empress of Light" class="location">
+			<div id="Fae Flayer" class="location">
 			</div>
 		</div>
 		<div class="region">
 			<div id="junglebanner" class="banner">
 				Jungle
 			</div>
-			<div id="Where's My Honey?" class="location">
+			<div id="Where's My Honey" class="location">
 			</div>
-			<div id="Queen Bee" class="location">
+			<div id="Sting Operation" class="location">
 			</div>
 			<div id="Not the Bees!" class="location">
 			</div>
@@ -262,9 +287,9 @@
 			</div>
 			<div id="Photosynthesis" class="location">
 			</div>
-			<div id="Plantera" class="location">
+			<div id="The Great Southern Plantkill" class="location">
 			</div>
-			<div id="You and What Army?" class="location">
+			<div id="You and What Army" class="location">
 			</div>
 		</div>
 		<div class="region">
@@ -275,7 +300,7 @@
 			</div>
 			<div id="Rock Bottom" class="location">
 			</div>
-			<div id="Wall of Flesh" class="location">
+			<div id="Still Hungry" class="location">
 			</div>
 			<div id="Gelatin World Tour" class="location">
 			</div>
@@ -284,7 +309,7 @@
 			<div id="ugevilbanner" class="banner">
 				U.G. Evil
 			</div>
-			<div id="The Destroyer" class="location">
+			<div id="Ride The Worm" class="location">
 			</div>
 			<div id="Buckets of Bolts" class="location">
 			</div>
@@ -314,9 +339,9 @@
 			<div id="ughallowbanner" class="banner">
 				U.G. Hallow
 			</div>
-			<div id="Queen Slime" class="location">
+			<div id="Just Desserts" class="location">
 			</div>
-			<div id="The Twins" class="location">
+			<div id="Ophthalmologist" class="location">
 			</div>
 		</div>
 		<div class="region">
@@ -325,14 +350,14 @@
 			</div>
 			<div id="Temple Raider" class="location">
 			</div>
-			<div id="Golem" class="location">
+			<div id="Lihzahrdian Idol" class="location">
 			</div>
 		</div>
-		<div class="details">
+		<div id="details">
 
 		</div>
 	</body>
 	<script>
-		
+		loadDivs();
 	</script>
 </html>

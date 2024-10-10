@@ -26,13 +26,27 @@ body {
 	float: left;
 	height: 6vw;
 }
-.details {
+#details {
 	width: 80vw;
 	margin-left: 10vw;
 	margin-top: .8vw;
 	height: 100px;
-	background-color: orange;
+	background-color: #111923;
 	float: left;
+	img {
+		height: 100%;
+    	float: left;
+	}
+	.header {
+		color: White;
+		font-family: serif;
+		font-size: 50px;
+	}
+	.desc {
+		color: WhiteSmoke;
+		font-family: sans-serif;
+		line-height: 40px;
+	}
 }
 .location {
 	float: left;
@@ -43,10 +57,18 @@ body {
 	background-color: red;
 	cursor: pointer;
 	box-shadow: 0 .05vw 0 0 black inset, .05vw 0 0 0 black inset, -.05vw 0 0 0 black inset, 0 -.05vw 0 0 black inset;
+	img {
+		width: 80%;
+    	height: 80%;
+    	margin-top: 10%;
+	}
 }
 .location:hover {
 	z-index: 3000;
 	box-shadow: 0 .05vw 0 0 yellow inset, .05vw 0 0 0 yellow inset, -.05vw 0 0 0 yellow inset, 0 -.05vw 0 0 yellow inset;
+}
+.checked {
+	background-color: grey;
 }
 
 #skybanner {
