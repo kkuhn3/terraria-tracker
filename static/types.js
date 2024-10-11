@@ -123,6 +123,8 @@ const chievToDesc = {
     "Ophthalmologist": "Defeat The Twins. This is going to be a terrible night...",
     "Bona Fide": "Defeat Skeletron Prime. The air is getting colder around you...",
     "Ride The Worm": "Defeat The Destroyer. You feel vibrations from deep below...",
+    "Old One's Army Tier 1": "Repel the weakest forces the Old One's Army can muster.",
+    "Old One's Army Tier 2": "Repel the averagest forces the Old One's Army can muster."
 };
 
 const chievToName = {
@@ -139,3 +141,115 @@ const settingToDisplay = {
     "CHECK_LOGICAL": "Locations Logically Available",
     "CHECK_TOTAL": "Locations in Total"
 };
+
+const postBoss = {
+    "0": [
+        "Prismancer",
+        "Get a Life",
+        "Topped Off",
+        "Old One's Army Tier 2",
+        "Buckets of Bolts",
+        "Mecha Mayhem",
+        "Drax Attax",
+        "Photosynthesis",
+        "The Great Southern Plantkill"
+    ],
+    "1": [
+        "You and What Army",
+        "Real Estate Agent",
+        "Robbing the Grave",
+        "Big Booty",
+        "Rainbows and Unicorns",
+        "Temple Raider",
+        "Sword of the Hero",
+        "Kill the Sun",
+        "Lihzahrdian Idol"
+    ],
+    "2": [
+        "Hero of Etheria",
+        "Tin-Foil Hatter",
+        "Fish Out of Water",
+        "Mourning Wood",
+        "Pumpking",
+        "Baleful Harvest",
+        "Everscream",
+        "Santa-NK1",
+        "Ice Queen",
+        "Ice Scream",
+        "Do You Want to Slay a Snowman",
+        "Fae Flayer"
+    ],
+    "3": [
+        "Obsessive Devotion"
+    ],
+    "4": [
+        "Star Destroyer",
+        "Champion of Terraria"
+    ],
+    "5": [
+        "Slayer of Worlds",
+        "Sick Throw",
+        "Infinity +1 Sword"
+    ],
+    "6": []
+};
+
+const required = [
+    "Slippery Shinobi",
+    "Eye on You",
+    "Evil Boss",
+    "Old One's Army Tier 1",
+    "Goblin Punter",
+    "Sting Operation",
+    "Boned",
+    "An Eye For An Eye",
+    "Walk the Plank",
+    "Just Desserts",
+    "Old One's Army Tier 2",
+    "Hero of Etheria",
+    "Tin-Foil Hatter",
+    "Fish Out of Water",
+    "Mourning Wood",
+    "Pumpking",
+    "Everscream",
+    "Santa-NK1",
+    "Ice Queen",
+    "Do You Want to Slay a Snowman",
+    "Star Destroyer",
+    "The Great Southern Plantkill",
+    "Lihzahrdian Idol",
+    "Fae Flayer",
+    "Obsessive Devotion",
+    "Champion of Terraria",
+    "Ophthalmologist",
+    "Ride The Worm",
+    "Bona Fide",
+    "Still Hungry",
+    "Infinity +1 Sword",
+    "Torch God"
+];
+
+const grindy = [
+    "Archaeologist",
+    "A Rather Blustery Day",
+    "Pretty in Pink",
+    "Marathon Medalist",
+    "Deceiver of Fools",
+    "Bulldozer",
+    "There are Some Who Call Him...",
+    "Sticky Situation",
+    "Bloodbath",
+    "Til Death...",
+    "Jolly Jamboree",
+    "Boots of the Hero",
+    "Gelatin World Tour"
+];
+
+const fishing = [
+    "Servant-in-Training",
+    "Good Little Slave",
+    "Trout Monkey",
+    "Glorious Golden Pole",
+    "Fast and Fishious",
+    "Supreme Helper Minion!"
+];

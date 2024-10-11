@@ -8,6 +8,7 @@ body {
 
 .region {
 	width: 19.4vw;
+	height: 7.91111111112vw;
 	float: left;
 	margin-left: .4vw;
 	margin-top: .4vw;
@@ -127,4 +128,11 @@ body {
 }
 #jungletemplebanner {
 	background-image: url("images/banners/BiomeBannerJungleTemple.png");
+}
+
+.goalhidden {
+	display: none;
+}
+.chievhidden {
+	display: none;
 }

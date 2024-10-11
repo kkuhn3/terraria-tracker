@@ -43,7 +43,6 @@ function loadDivs() {
 			itemdesc.innerHTML = '';
 		}
 	}
-	countChecks();
 }
 
 function settingIterate(div, max) {
@@ -58,16 +57,70 @@ function settingIterate(div, max) {
 function goalOnClick() {
 	settingIterate(goal, 6);
 	hideForGoal();
+	countChecks();
 }
 function hideForGoal() {
-	let count = parseInt(div.classList[1].substring(1), 10);
+	const count = parseInt(goal.classList[1].substring(1), 10);
+	let hiddenPerGoal = [];
+	for (let i = count; i < 6; i++) {
+		hiddenPerGoal.push(...postBoss[i]);
+	}
+	let locations = document.getElementsByClassName("location");
+	for (let location of locations) {
+		if (hiddenPerGoal.includes(location.id)) {
+			location.classList.add("goalhidden");
+		}
+		else {
+			location.classList.remove("goalhidden");
+		}
+	}
 }
 function chievOnClick() {
 	settingIterate(achievements, 3);
 	hideForChiev();
+	countChecks();
 }
 function hideForChiev() {
-	let count = parseInt(div.classList[1].substring(1), 10);
+	const count = parseInt(achievements.classList[1].substring(1), 10);
+	if (count === 0) {
+		let locations = document.getElementsByClassName("location");
+		for (let location of locations) {
+			if (!required.includes(location.id)) {
+				location.classList.add("chievhidden");
+			}
+			else {
+				location.classList.remove("chievhidden");
+			}
+		}
+	}
+	else if (count === 1) {
+		let locations = document.getElementsByClassName("location");
+		for (let location of locations) {
+			if (grindy.includes(location.id) || fishing.includes(location.id)) {
+				location.classList.add("chievhidden");
+			}
+			else {
+				location.classList.remove("chievhidden");
+			}
+		}
+	}
+	else if (count === 2) {
+		let locations = document.getElementsByClassName("location");
+		for (let location of locations) {
+			if (fishing.includes(location.id)) {
+				location.classList.add("chievhidden");
+			}
+			else {
+				location.classList.remove("chievhidden");
+			}
+		}
+	}
+	else {
+		let locations = document.getElementsByClassName("location");
+		for (let location of locations) {
+			location.classList.remove("chievhidden");
+		}
+	}
 }
 
 function countChecks() {

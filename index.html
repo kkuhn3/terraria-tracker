@@ -9,7 +9,7 @@
 	<body>
 		<div class="region">
 			<img id="goal" class="setting _0" onclick="goalOnClick();">
-			<img id="achievements" class="setting _0" onclick="chievOnClick();">
+			<img id="achievements" class="setting _1" onclick="chievOnClick();">
 			<div id="CHECK_CHECKED" class="setting notImageImage">0</div>
 			<div id="CHECK_LOGICAL" class="setting notImageImage">50</div>
 			<div id="CHECK_TOTAL" class="setting notImageImage">300</div>
@@ -359,5 +359,8 @@
 	</body>
 	<script>
 		loadDivs();
+		hideForGoal();
+		hideForChiev();
+		countChecks();
 	</script>
 </html>
