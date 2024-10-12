@@ -28,7 +28,7 @@ function loadDivs() {
 		}
 		item.onclick = function() {
 			item.classList.toggle("itemchecked");
-			// updatelocations
+			updateLocations();
 			countChecks();
 		}
 		item.style.backgroundImage = 'URL("images/items/' + item.id + '.png")';

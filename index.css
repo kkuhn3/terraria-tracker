@@ -30,7 +30,7 @@ body {
 #details {
 	width: 80vw;
 	margin-left: 10vw;
-	margin-top: .8vw;
+	margin-top: 1vw;
 	height: 100px;
 	background-color: #111923;
 	float: left;
@@ -55,7 +55,7 @@ body {
 	height: 1.7vw;
 	margin-left: 0.21818181818vw;
 	margin-bottom: 0.21818181818vw;;
-	background-color: red;
+	background-color: #ff8080;
 	cursor: pointer;
 	box-shadow: 0 .05vw 0 0 black inset, .05vw 0 0 0 black inset, -.05vw 0 0 0 black inset, 0 -.05vw 0 0 black inset;
 	img {
@@ -67,9 +67,6 @@ body {
 .location:hover {
 	z-index: 3000;
 	box-shadow: 0 .05vw 0 0 yellow inset, .05vw 0 0 0 yellow inset, -.05vw 0 0 0 yellow inset, 0 -.05vw 0 0 yellow inset;
-}
-.checked {
-	background-color: grey;
 }
 
 #skybanner {
@@ -135,4 +132,13 @@ body {
 }
 .chievhidden {
 	display: none;
+}
+.logical {
+	background-color: #80ff80;
+}
+.possible {
+	background-color: #8080ff;
+}
+.checked {
+	background-color: #808080;
 }

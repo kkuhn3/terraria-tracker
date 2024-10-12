@@ -4,6 +4,7 @@
 		<link rel="stylesheet" type="text/css" href="items.css">
 		<script src="static/types.js"></script>
 		<script src="style.js"></script>
+		<script src="logic.js"></script>
 		<title>Terraria Tracker</title>
 	</head>
 	<body>
@@ -113,8 +114,6 @@
 			</div>
 			<div id="Heliophobia" class="location">
 			</div>
-			<div id="Archaeologist" class="location">
-			</div>
 			<div id="Feeling Petty" class="location">
 			</div>
 			<div id="A Rather Blustery Day" class="location">
@@ -124,6 +123,8 @@
 			<div id="Marathon Medalist" class="location">
 			</div>
 			<div id="Jolly Jamboree" class="location">
+			</div>
+			<div id="Real Estate Agent" class="location">
 			</div>
 		</div>
 		<div class="region">
@@ -165,9 +166,9 @@
 			</div>
 			<div id="Boots of the Hero" class="location">
 			</div>
-			<div id="It Can Talk!" class="location">
+			<div id="Funkytown" class="location">
 			</div>
-			<div id="Real Estate Agent" class="location">
+			<div id="It Can Talk!" class="location">
 			</div>
 			<div id="Old One's Army Tier 1" class="location">
 			</div>
@@ -275,6 +276,8 @@
 			<div id="junglebanner" class="banner">
 				Jungle
 			</div>
+			<div id="Archaeologist" class="location">
+			</div>
 			<div id="Where's My Honey" class="location">
 			</div>
 			<div id="Sting Operation" class="location">
@@ -322,8 +325,6 @@
 			<div id="cavernbanner" class="banner">
 				Cavern
 			</div>
-			<div id="Funkytown" class="location">
-			</div>
 			<div id="Deceiver of Fools" class="location">
 			</div>
 			<div id="Dead Men Tell No Tales" class="location">
@@ -361,6 +362,7 @@
 		loadDivs();
 		hideForGoal();
 		hideForChiev();
+		updateLocations();
 		countChecks();
 	</script>
 </html>

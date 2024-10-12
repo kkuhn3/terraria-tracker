@@ -119,7 +119,7 @@ const chievToDesc = {
     "Everscream": "Defeat an Everscream, starting on wave 4 of the Frost Moon.",
     "Santa-NK1": "Defeat a Santa-NK1, starting on wave 7 of the Frost Moon.",
     "Ice Queen": "Defeat an Ice Queen, starting on wave 11 of the Frost Moon.",
-    "Evil Boss": "Defeat the Boss of the Evil Biome, either Corruption or Crimsion",
+    "Evil Boss": "Defeat the Boss of the Evil Biome, either Corruption or Crimsion.",
     "Ophthalmologist": "Defeat The Twins. This is going to be a terrible night...",
     "Bona Fide": "Defeat Skeletron Prime. The air is getting colder around you...",
     "Ride The Worm": "Defeat The Destroyer. You feel vibrations from deep below...",
