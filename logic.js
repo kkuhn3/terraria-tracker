@@ -23,7 +23,7 @@ function numNpcs() {
 	// Available w/ Free - Nurse (Merchant), Demolitionist (Merchant), Dye Trader (4), Cat (Zoologist), Dog (Zoologist), Painter (8)
 	let npcCount = 13;
 	// Dryad
-	if (has("Eye of Cthulhu") || has("Evil Boss") || has("Skeletron")) {
+	if (has("Post-Eye of Cthulhu") || has("Post-Evil Boss") || has("Post-Skeletron")) {
 		npcCount = npcCount + 1;
 		// Tax Collector
 		if (has("Hardmode")) {
@@ -31,19 +31,19 @@ function numNpcs() {
 		}
 	}
 	// Tavernkeep
-	if (has("Evil Boss")) {
+	if (has("Post-Evil Boss")) {
 		npcCount = npcCount + 1;
 	}
 	// Goblin Tinkerer
-	if (has("Goblin Army")) {
+	if (has("Post-Goblin Army")) {
 		npcCount = npcCount + 1;
 	}
 	// Witch Doctor
-	if (has("Queen Bee")) {
+	if (has("Post-Queen Bee")) {
 		npcCount = npcCount + 1;
 	}
 	// Clothier
-	if (has("Skeletron")) {
+	if (has("Post-Skeletron")) {
 		npcCount = npcCount + 1;
 	}
 	// Wizard
@@ -59,19 +59,19 @@ function numNpcs() {
 		npcCount = npcCount + 1;
 	}
 	// Pirate
-	if (has("Pirate Invasion")) {
+	if (has("Post-Pirate Invasion")) {
 		npcCount = npcCount + 1;
 	}
 	// Steampunker
-	if (has("The Twins") || has("The Destroyer") || has("Skeletron Prime")) {
+	if (has("Post-The Twins") || has("Post-The Destroyer") || has("Post-Skeletron Prime")) {
 		npcCount = npcCount + 1;
 	}
 	// Cyborg
-	if (has("Plantera")) {
+	if (has("Post-Plantera")) {
 		npcCount = npcCount + 1;
 	}
 	// Santa Claus
-	if (has("Skeletron") && has("Plantera") && has("Hardmode") && has("Frost Legion")) {
+	if (has("Post-Skeletron") && has("Post-Plantera") && has("Hardmode") && has("Post-Frost Legion")) {
 		npcCount = npcCount + 1;
 	}
 	// Party Girl
@@ -99,22 +99,22 @@ const locationLogic = {
 		return "possible";
 	},
 	"Tin-Foil Hatter": function() {
-		if (has("Hardmode") && has("Golem")) {
+		if (has("Hardmode") && has("Post-Golem")) {
 			return "logical";
 		}
 	},
 	"Champion of Terraria": function() {
-		if (has("Hardmode") && has("Golem") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Golem") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
 	"Sick Throw": function() {
-		if (has("Hardmode") && has("Golem") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Golem") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
 	"Infinity +1 Sword": function() {
-		if (has("Hardmode") && has("Golem") && has("Skeletron") && has("Plantera") && has("The Twins") && has("The Destroyer") && has("Skeletron Prime")) {
+		if (has("Hardmode") && has("Post-Golem") && has("Post-Skeletron") && has("Post-Plantera") && has("Post-The Twins") && has("Post-The Destroyer") && has("Post-Skeletron Prime")) {
 			return "logical";
 		}
 	},
@@ -133,55 +133,55 @@ const locationLogic = {
 		}
 	},
 	"Sword of the Hero": function() {
-		if (has("Hardmode") && has("Skeletron") && has("The Twins") && has("The Destroyer") && has("Skeletron Prime")) {
+		if (has("Hardmode") && has("Post-Skeletron") && has("Post-The Twins") && has("Post-The Destroyer") && has("Post-Skeletron Prime")) {
 			return "logical";
 		}
 	},
 	"Kill the Sun": function() {
-		if (has("Hardmode") && has("The Twins") && has("The Destroyer") && has("Skeletron Prime")) {
+		if (has("Hardmode") && has("Post-The Twins") && has("Post-The Destroyer") && has("Post-Skeletron Prime")) {
 			return "logical";
 		}
-		if (has("Skeletron") && has("Plantera")) {
+		if (has("Post-Skeletron") && has("Post-Plantera")) {
 			return "logical";
 		}
 	},
 	"Mourning Wood": function() {
-		if (has("Skeletron") && has("Plantera") && has("Hardmode")) {
+		if (has("Post-Skeletron") && has("Post-Plantera") && has("Hardmode")) {
 			return "logical";
 		}
 	},
 	"Pumpking": function() {
-		if (has("Skeletron") && has("Plantera") && has("Hardmode")) {
+		if (has("Post-Skeletron") && has("Post-Plantera") && has("Hardmode")) {
 			return "logical";
 		}
 	},
 	"Baleful Harvest": function() {
-		if (has("Skeletron") && has("Plantera") && has("Hardmode")) {
+		if (has("Post-Skeletron") && has("Post-Plantera") && has("Hardmode")) {
 			return "logical";
 		}
 	},
 	"Everscream": function() {
-		if (has("Skeletron") && has("Plantera") && has("Hardmode")) {
+		if (has("Post-Skeletron") && has("Post-Plantera") && has("Hardmode")) {
 			return "logical";
 		}
 	},
 	"Santa-NK1": function() {
-		if (has("Skeletron") && has("Plantera") && has("Hardmode")) {
+		if (has("Post-Skeletron") && has("Post-Plantera") && has("Hardmode")) {
 			return "logical";
 		}
 	},
 	"Ice Queen": function() {
-		if (has("Skeletron") && has("Plantera") && has("Hardmode")) {
+		if (has("Post-Skeletron") && has("Post-Plantera") && has("Hardmode")) {
 			return "logical";
 		}
 	},
 	"Ice Scream": function() {
-		if (has("Skeletron") && has("Plantera") && has("Hardmode")) {
+		if (has("Post-Skeletron") && has("Post-Plantera") && has("Hardmode")) {
 			return "logical";
 		}
 	},
 	"Do You Want to Slay a Snowman": function() {
-		if (has("Skeletron") && has("Plantera") && has("Hardmode")) {
+		if (has("Post-Skeletron") && has("Post-Plantera") && has("Hardmode")) {
 			return "logical";
 		}
 	},
@@ -189,7 +189,7 @@ const locationLogic = {
 		return "logical";
 	},
 	"Slayer of Worlds": function() {
-		if (has("Hardmode") && has("Golem") && has("Skeletron") && has("Plantera") && has("The Twins") && has("The Destroyer") && has("Skeletron Prime")) {
+		if (has("Hardmode") && has("Post-Golem") && has("Post-Skeletron") && has("Post-Plantera") && has("Post-The Twins") && has("Post-The Destroyer") && has("Post-Skeletron Prime")) {
 			return "logical";
 		}
 	},
@@ -270,7 +270,7 @@ const locationLogic = {
 		return "logical";
 	},
 	"Boots of the Hero": function() {
-		if (has("Goblin Army")) {
+		if (has("Post-Goblin Army")) {
 			return "logical";
 		}
 	},
@@ -283,22 +283,22 @@ const locationLogic = {
 		}
 	},
 	"Old One's Army Tier 1": function() {
-		if (has("Evil Boss")) {
+		if (has("Post-Evil Boss")) {
 			return "logical";
 		}
 	},
 	"Old One's Army Tier 2": function() {
-		if (has("Evil Boss")) {
-			if (has("Hardmode") && (has("The Twins") || has("The Destroyer") || has("Skeletron Prime"))) {
+		if (has("Post-Evil Boss")) {
+			if (has("Hardmode") && (has("Post-The Twins") || has("Post-The Destroyer") || has("Post-Skeletron Prime"))) {
 				return "logical";
 			}
-			if (has("Hardmode") && has("Golem")) {
+			if (has("Hardmode") && has("Post-Golem")) {
 				return "logical";
 			}
 		}
 	},
 	"Hero of Etheria": function() {
-		if (has("Evil Boss") && has("Hardmode") && has("Golem")) {
+		if (has("Post-Evil Boss") && has("Hardmode") && has("Post-Golem")) {
 			return "logical";
 		}
 	},
@@ -334,37 +334,37 @@ const locationLogic = {
 		return "logical";
 	},
 	"Dungeon Heist": function() {
-		if (has("Skeletron")) {
+		if (has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
 	"Bona Fide": function() {
-		if (has("Hardmode") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
 	"Robbing the Grave": function() {
-		if (has("Plantera") && has("Skeletron")) {
+		if (has("Post-Plantera") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
 	"Big Booty": function() {
-		if (has("Hardmode") && has("Plantera") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Plantera") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
 	"Rainbows and Unicorns": function() {
-		if (has("Hardmode") && has("Plantera") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Plantera") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
 	"Obsessive Devotion": function() {
-		if (has("Hardmode") && has("Golem") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Golem") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
 	"Star Destroyer": function() {
-		if (has("Hardmode") && has("Golem") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Golem") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
@@ -427,7 +427,7 @@ const locationLogic = {
 		}
 	},
 	"Fae Flayer": function() {
-		if (has("Hardmode") && has("Plantera")) {
+		if (has("Hardmode") && has("Post-Plantera")) {
 			return "logical";
 		}
 	},
@@ -444,27 +444,27 @@ const locationLogic = {
 		return "logical";
 	},
 	"Get a Life": function() {
-		if (has("Hardmode") && (has("The Twins") || has("The Destroyer") || has("Skeletron Prime"))) {
+		if (has("Hardmode") && (has("Post-The Twins") || has("Post-The Destroyer") || has("Post-Skeletron Prime"))) {
 			return "logical";
 		}
 	},
 	"Topped Off": function() {
-		if (has("Hardmode") && (has("The Twins") || has("The Destroyer") || has("Skeletron Prime"))) {
+		if (has("Hardmode") && (has("Post-The Twins") || has("Post-The Destroyer") || has("Post-Skeletron Prime"))) {
 			return "logical";
 		}
 	},
 	"Photosynthesis": function() {
-		if (has("Hardmode") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
 	"The Great Southern Plantkill": function() {
-		if (has("Hardmode") && has("The Twins") && has("The Destroyer") && has("Skeletron Prime")) {
+		if (has("Hardmode") && has("Post-The Twins") && has("Post-The Destroyer") && has("Post-Skeletron Prime")) {
 			return "logical";
 		}
 	},
 	"You and What Army": function() {
-		if (has("Hardmode") && has("Queen Bee") && has("Plantera") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Queen Bee") && has("Post-Plantera") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
@@ -478,7 +478,7 @@ const locationLogic = {
 		return "logical";
 	},
 	"Gelatin World Tour": function() {
-		if (has("Hardmode") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
@@ -488,17 +488,17 @@ const locationLogic = {
 		}
 	},
 	"Buckets of Bolts": function() {
-		if (has("Hardmode") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
 	"Mecha Mayhem": function() {
-		if (has("Hardmode") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
 	"Drax Attax": function() {
-		if (has("Hardmode") && has("Skeletron")) {
+		if (has("Hardmode") && has("Post-Skeletron")) {
 			return "logical";
 		}
 	},
@@ -530,18 +530,18 @@ const locationLogic = {
 		}
 	},
 	"Temple Raider": function() {
-		if (has("Hardmode") && has("The Twins") && has("The Destroyer") && has("Skeletron Prime")) {
+		if (has("Hardmode") && has("Post-The Twins") && has("Post-The Destroyer") && has("Post-Skeletron Prime")) {
 			return "logical";
 		}
-		if (has("Hardmode") && has("Plantera")) {
+		if (has("Hardmode") && has("Post-Plantera")) {
 			return "possible";
 		}
 	},
 	"Lihzahrdian Idol": function() {
-		if (has("Hardmode") && has("Plantera") && has("The Twins") && has("The Destroyer") && has("Skeletron Prime")) {
+		if (has("Hardmode") && has("Post-Plantera") && has("Post-The Twins") && has("Post-The Destroyer") && has("Post-Skeletron Prime")) {
 			return "logical";
 		}
-		if (has("Hardmode") && has("Plantera")) {
+		if (has("Hardmode") && has("Post-Plantera")) {
 			return "possible";
 		}
 	}

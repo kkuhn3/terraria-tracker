@@ -31,7 +31,8 @@ function loadDivs() {
 			updateLocations();
 			countChecks();
 		}
-		item.style.backgroundImage = 'URL("images/items/' + item.id + '.png")';
+		const imageStr = item.id.replace("Post-", "");
+		item.style.backgroundImage = 'URL("images/items/' + imageStr + '.png")';
 	}
 
 	let settings = document.getElementsByClassName("setting");

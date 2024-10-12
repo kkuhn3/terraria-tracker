@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Terraria Tracker Settings</title>
+	<script src="index.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="header">
+		Archipelago Configs
+	</div>
+
+	<div>
+		<label>Player Name</label>
+		<input type="text" id="PNAME" />
+	</div>
+	<div>
+		<label>Archipelago Port</label>
+		<input type="text" id="APORT" />
+	</div>
+
+	<div class="header">
+		Randomizer Settings
+	</div>
+	<div>
+		<label>Goal</label>
+		<select id="G">
+			<option value="0" selected>Mechanical Bosses</option>
+			<option value="1">Plantera</option>
+			<option value="2">Golem</option>
+			<option value="3">Empress of Light</option>
+			<option value="4">Lunatic Cultist</option>
+			<option value="5">Moon Lord</option>
+			<option value="6">Zenith</option>
+		</select>
+	</div>
+	<div>
+		<label>Achievements</label>
+		<select id="A">
+			<option value="0">Exclude All</option>
+			<option value="1" selected>Exclude Grindy</option>
+			<option value="2">Exclude Fishing</option>
+			<option value="3">Include All</option>
+		</select>
+	</div>
+
+	<div class="header">
+		Ready?
+	</div>
+	<div>
+		<label>Let's Go</label>
+		<button type="button" onclick="launch()">Launch</button>
+	</div>
+
+</body>
+</html>

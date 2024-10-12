@@ -3,8 +3,10 @@
 		<link rel="stylesheet" type="text/css" href="index.css">
 		<link rel="stylesheet" type="text/css" href="items.css">
 		<script src="static/types.js"></script>
+		<script src="static/archIds.js"></script>
 		<script src="style.js"></script>
 		<script src="logic.js"></script>
+		<script src="sync.js"></script>
 		<title>Terraria Tracker</title>
 	</head>
 	<body>
@@ -14,20 +16,20 @@
 			<div id="CHECK_CHECKED" class="setting notImageImage">0</div>
 			<div id="CHECK_LOGICAL" class="setting notImageImage">50</div>
 			<div id="CHECK_TOTAL" class="setting notImageImage">300</div>
-			<img id="Eye of Cthulhu" class="item">
-			<img id="Evil Boss" class="item">
-			<img id="Goblin Army" class="item">
-			<img id="Queen Bee" class="item">
+			<img id="Post-Eye of Cthulhu" class="item">
+			<img id="Post-Evil Boss" class="item">
+			<img id="Post-Goblin Army" class="item">
+			<img id="Post-Queen Bee" class="item">
 
-			<img id="Skeletron" class="item">
+			<img id="Post-Skeletron" class="item">
 			<img id="Hardmode" class="item">
-			<img id="Pirate Invasion" class="item">
-			<img id="The Twins" class="item">
-			<img id="The Destroyer" class="item">
-			<img id="Skeletron Prime" class="item">
-			<img id="Plantera" class="item">
-			<img id="Golem" class="item">
-			<img id="Frost Legion" class="item">
+			<img id="Post-Pirate Invasion" class="item">
+			<img id="Post-The Twins" class="item">
+			<img id="Post-The Destroyer" class="item">
+			<img id="Post-Skeletron Prime" class="item">
+			<img id="Post-Plantera" class="item">
+			<img id="Post-Golem" class="item">
+			<img id="Post-Frost Legion" class="item">
 
 			<div id="itemdesc"> </div>
 		</div>
@@ -360,8 +362,10 @@
 	</body>
 	<script>
 		loadDivs();
+		parseSettings();
 		hideForGoal();
 		hideForChiev();
+		connect();
 		updateLocations();
 		countChecks();
 	</script>
