@@ -60,6 +60,9 @@ html{
 	box-shadow: 0 1px 0 0 #d3dfeb inset, 1px 0 0 0 #d3dfeb inset, -1px 0 0 0 #d3dfeb inset, 0 -1px 0 0 #d3dfeb inset;
 	cursor: auto;
 }
+.setting.notImageImage:hover {
+	transform: scale(1);
+}
 .item {
 	width: calc(33vw/13);
 	height: calc(33vw/13);
@@ -71,6 +74,7 @@ html{
 }
 .item:hover {
 	transform: scale(1.2);
+	transition: 0.2s all ease-out;
 	z-index: 100;
 }
 .itemchecked {

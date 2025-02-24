@@ -17,6 +17,7 @@ function updateLocations() {
 			location.classList.add(logic);
 		}
 	}
+	countChecks();
 }
 
 function numNpcs() {

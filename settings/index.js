@@ -23,5 +23,8 @@ function launch() {
 		url = url + "&t=" + t.value;
 	}
 	url = url.replace("?&", "?");
+	if (url === "../?") {
+		url = "../";
+	}
 	window.open(url, "_self");
 }
