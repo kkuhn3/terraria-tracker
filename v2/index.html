@@ -1,0 +1,370 @@
+<html>
+	<head>
+		<title>Terraria Tracker</title>
+		<link rel="stylesheet" type="text/css" href="./index.css">
+		<link rel="stylesheet" type="text/css" href="./items.css">
+		<link rel="stylesheet" type="text/css" href="./locations.css">
+	</head>
+	<body>
+		<div id="top">
+			<img id="goal" class="setting _0" onclick="goalOnClick();">
+			<img id="achievements" class="setting _1" onclick="chievOnClick();">
+			
+			<div id="itemdesc"> </div>
+
+			<img id="Post-Eye of Cthulhu" class="item">
+			<img id="Post-Evil Boss" class="item">
+			<img id="Post-Goblin Army" class="item">
+			<img id="Post-Queen Bee" class="item">
+			<img id="Post-Skeletron" class="item">
+			<img id="Hardmode" class="item">
+			<img id="Post-Pirate Invasion" class="item">
+			<img id="Post-The Twins" class="item">
+			<img id="Post-The Destroyer" class="item">
+			<img id="Post-Skeletron Prime" class="item">
+			<img id="Post-Plantera" class="item">
+			<img id="Post-Golem" class="item">
+			<img id="Post-Frost Legion" class="item">
+			<div id="CHECK_CHECKED" class="setting notImageImage">0</div>
+			<div id="CHECK_LOGICAL" class="setting notImageImage">50</div>
+			<div id="CHECK_TOTAL" class="setting notImageImage">300</div>
+		</div>
+
+		<div id="map">
+			<img id="wds" src="../images/wds.png">
+			<div class="region" id="sky">
+				<div id="Into Orbit" class="location">
+					<div class="logic available"></div>
+				</div>
+				<div class="logicv2 available">
+					<div id="Eye on You" class="locationv2">
+					</div>
+				</div>
+				<div class="logicv3 available">
+					<div id="Head in the Clouds" class="locationv3">
+					</div>
+				</div>
+				<div id="Tin-Foil Hatter" class="location">
+					<div class="logicv4 available"></div>
+				</div>
+				<div class="logicv2 available">
+					<div id="Champion of Terraria" class="locationv5">
+					</div>
+				</div>
+				<div id="Sick Throw" class="location">
+				</div>
+				<div id="Infinity +1 Sword" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="solarbanner" class="banner">
+					Blood / Solar
+				</div>
+				<div id="Bloodbath" class="location">
+				</div>
+				<div id="Til Death..." class="location">
+				</div>
+				<div id="Quiet Neighborhood" class="location">
+				</div>
+				<div id="Don't Dread on Me" class="location">
+				</div>
+				<div id="Sword of the Hero" class="location">
+				</div>
+				<div id="Kill the Sun" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="pumpkinbanner" class="banner">
+					Pumpkin
+				</div>
+				<div id="Mourning Wood" class="location">
+				</div>
+				<div id="Pumpking" class="location">
+				</div>
+				<div id="Baleful Harvest" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="frostbanner" class="banner">
+					Frost
+				</div>
+				<div id="Everscream" class="location">
+				</div>
+				<div id="Santa-NK1" class="location">
+				</div>
+				<div id="Ice Queen" class="location">
+				</div>
+				<div id="Ice Scream" class="location">
+				</div>
+				<div id="Do You Want to Slay a Snowman" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="snowbanner" class="banner">
+					Snow
+				</div>
+				<div id="An Eye For An Eye" class="location">
+				</div>
+				<div id="Slayer of Worlds" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="surface1banner" class="banner">
+					Surface
+				</div>
+				<div id="Lucky Break" class="location">
+				</div>
+				<div id="Star Power" class="location">
+				</div>
+				<div id="You Can Do It!" class="location">
+				</div>
+				<div id="Heliophobia" class="location">
+				</div>
+				<div id="Feeling Petty" class="location">
+				</div>
+				<div id="A Rather Blustery Day" class="location">
+				</div>
+				<div id="Pretty in Pink" class="location">
+				</div>
+				<div id="Marathon Medalist" class="location">
+				</div>
+				<div id="Jolly Jamboree" class="location">
+				</div>
+				<div id="Real Estate Agent" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="surface2banner" class="banner">
+					Surface
+				</div>
+				<div id="Timber!!" class="location">
+				</div>
+				<div id="Benched" class="location">
+				</div>
+				<div id="Stop! Hammer Time!" class="location">
+				</div>
+				<div id="Matching Attire" class="location">
+				</div>
+				<div id="Fashion Statement" class="location">
+				</div>
+				<div id="Ooo! Shiny!" class="location">
+				</div>
+				<div id="No Hobo" class="location">
+				</div>
+				<div id="Heavy Metal" class="location">
+				</div>
+				<div id="The Frequent Flyer" class="location">
+				</div>
+				<div id="Dye Hard" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="surface3banner" class="banner">
+					Surface
+				</div>
+				<div id="Slippery Shinobi" class="location">
+				</div>
+				<div id="Sticky Situation" class="location">
+				</div>
+				<div id="The Cavalry" class="location">
+				</div>
+				<div id="Goblin Punter" class="location">
+				</div>
+				<div id="Boots of the Hero" class="location">
+				</div>
+				<div id="Funkytown" class="location">
+				</div>
+				<div id="It Can Talk!" class="location">
+				</div>
+				<div id="Old One's Army Tier 1" class="location">
+				</div>
+				<div id="Old One's Army Tier 2" class="location">
+				</div>
+				<div id="Hero of Etheria" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="oceanbanner" class="banner">
+					Ocean
+				</div>
+				<div id="Servant-in-Training" class="location">
+				</div>
+				<div id="Good Little Slave" class="location">
+				</div>
+				<div id="Trout Monkey" class="location">
+				</div>
+				<div id="Fast and Fishious" class="location">
+				</div>
+				<div id="Supreme Helper Minion!" class="location">
+				</div>
+				<div id="Glorious Golden Pole" class="location">
+				</div>
+				<div id="Walk the Plank" class="location">
+				</div>
+				<div id="Fish Out of Water" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="dungeonbanner" class="banner">
+					Dungeon
+				</div>
+				<div id="Boned" class="location">
+				</div>
+				<div id="Dungeon Heist" class="location">
+				</div>
+				<div id="Bona Fide" class="location">
+				</div>
+				<div id="Robbing the Grave" class="location">
+				</div>
+				<div id="Big Booty" class="location">
+				</div>
+				<div id="Rainbows and Unicorns" class="location">
+				</div>
+				<div id="Obsessive Devotion" class="location">
+				</div>
+				<div id="Star Destroyer" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="evilbanner" class="banner">
+					Evil
+				</div>
+				<div id="Smashing, Poppet!" class="location">
+				</div>
+				<div id="Leading Landlord" class="location">
+				</div>
+				<div id="Completely Awesome" class="location">
+				</div>
+				<div id="Evil Boss" class="location">
+				</div>
+				<div id="Miner for Fire" class="location">
+				</div>
+				<div id="Hot Reels!" class="location">
+				</div>
+				<div id="Begone, Evil!" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="undergroundbanner" class="banner">
+					Underground
+				</div>
+				<div id="Watch Your Step!" class="location">
+				</div>
+				<div id="Throwing Lines" class="location">
+				</div>
+				<div id="Torch God" class="location">
+				</div>
+				<div id="Vehicular Manslaughter" class="location">
+				</div>
+				<div id="Hey! Listen!" class="location">
+				</div>
+				<div id="I Am Loot!" class="location">
+				</div>
+				<div id="Heart Breaker" class="location">
+				</div>
+				<div id="Hold on Tight!" class="location">
+				</div>
+				<div id="Like a Boss" class="location">
+				</div>
+				<div id="Jeepers Creepers" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="hallowbanner" class="banner">
+					Hallow
+				</div>
+				<div id="Prismancer" class="location">
+				</div>
+				<div id="Fae Flayer" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="junglebanner" class="banner">
+					Jungle
+				</div>
+				<div id="Archaeologist" class="location">
+				</div>
+				<div id="Where's My Honey" class="location">
+				</div>
+				<div id="Sting Operation" class="location">
+				</div>
+				<div id="Not the Bees!" class="location">
+				</div>
+				<div id="Get a Life" class="location">
+				</div>
+				<div id="Topped Off" class="location">
+				</div>
+				<div id="Photosynthesis" class="location">
+				</div>
+				<div id="The Great Southern Plantkill" class="location">
+				</div>
+				<div id="You and What Army" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="underworldbanner" class="banner">
+					Underworld
+				</div>
+				<div id="It's Getting Hot in Here" class="location">
+				</div>
+				<div id="Rock Bottom" class="location">
+				</div>
+				<div id="Still Hungry" class="location">
+				</div>
+				<div id="Gelatin World Tour" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="ugevilbanner" class="banner">
+					U.G. Evil
+				</div>
+				<div id="Ride The Worm" class="location">
+				</div>
+				<div id="Buckets of Bolts" class="location">
+				</div>
+				<div id="Mecha Mayhem" class="location">
+				</div>
+				<div id="Drax Attax" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="cavernbanner" class="banner">
+					Cavern
+				</div>
+				<div id="Deceiver of Fools" class="location">
+				</div>
+				<div id="Dead Men Tell No Tales" class="location">
+				</div>
+				<div id="Bulldozer" class="location">
+				</div>
+				<div id="There are Some Who Call Him..." class="location">
+				</div>
+				<div id="Extra Shiny!" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="ughallowbanner" class="banner">
+					U.G. Hallow
+				</div>
+				<div id="Just Desserts" class="location">
+				</div>
+				<div id="Ophthalmologist" class="location">
+				</div>
+			</div>
+			<div class="region">
+				<div id="jungletemplebanner" class="banner">
+					Temple
+				</div>
+				<div id="Temple Raider" class="location">
+				</div>
+				<div id="Lihzahrdian Idol" class="location">
+				</div>
+			</div>
+		</div>
+		<div id="details">
+
+		</div>
+	</body>
+	<script>
+	</script>
+</html>

@@ -1,0 +1,78 @@
+.region {
+	position: absolute;
+	width: 15vw;
+    height: 4vw;
+    background-size: contain;
+}
+.location {
+	width: 2vw;
+	height: 2vw;
+	background-size: contain;
+	float: left;
+	margin-left: .5vw;
+	margin-top: .5vw;
+}
+.locationv2 {
+	width: 1.9vw;
+	height: 1.9vw;
+	background-size: contain;
+}
+.locationv3 {
+	width: 2vw;
+	height: 2vw;
+	background-size: contain;
+}
+.locationv5 {
+	width: 1.8vw;
+	height: 1.8vw;
+	background-size: contain;
+	margin-left: .1vw;
+	margin-top: .1vw;
+}
+.logic {
+	width: 1vw;
+	height: 1vw;
+}
+.logicv2 {
+	width: 2vw;
+	height: 2vw;
+	margin-left: .5vw;
+	margin-top: .5vw;
+	float: left;
+}
+.logicv3 {
+	width: 2vw;
+	height: 2.2vw;
+	margin-left: .5vw;
+	margin-top: .5vw;
+	float: left;
+}
+.logicv4 {
+	width: 2vw;
+	height: 2vw;
+	opacity: 0.5;
+}
+.available {
+	background-color: green;
+}
+
+#sky {
+	left: 16.529379461834157%;
+	top: 66.51017214397497%;
+	background-image: URL("../images/banners/BiomeBannerSpace.png");
+}
+#Into\ Orbit {
+	background-image: URL("../images/achievements/Into Orbit.png");
+}
+#Eye\ on\ You {
+	background-image: URL("../images/achievements/Eye on You.png");
+}
+#Head\ in\ the\ Clouds {
+	background-image: URL("../images/achievements/Head in the Clouds.png");
+}
+#Tin-Foil\ Hatter {
+	background-image: URL("../images/achievements/Tin-Foil Hatter.png");
+}
+#Champion\ of\ Terraria {
+	background-image: URL("../images/achievements/Champion of Terraria.png");
+}

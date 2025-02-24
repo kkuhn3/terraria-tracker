@@ -1,9 +1,9 @@
 function loadDivs() {
 	let locations = document.getElementsByClassName("location");
 	for (let location of locations) {
-		location.innerHTML = '<img src="images/achievements/' + location.id + '.png">';
+		location.innerHTML = '<img src="../images/achievements/' + location.id + '.png">';
 		location.onmouseenter = function() {
-			details.innerHTML = '<img src="images/achievements/' + location.id + '.png">';
+			details.innerHTML = '<img src="../images/achievements/' + location.id + '.png">';
 			if (chievToName[location.id]) {
 				details.innerHTML += '<div class="header">' + chievToName[location.id] + '</div>';
 			}
@@ -32,7 +32,7 @@ function loadDivs() {
 			countChecks();
 		}
 		const imageStr = item.id.replace("Post-", "");
-		item.style.backgroundImage = 'URL("images/items/' + imageStr + '.png")';
+		item.style.backgroundImage = 'URL("../images/items/' + imageStr + '.png")';
 	}
 
 	let settings = document.getElementsByClassName("setting");

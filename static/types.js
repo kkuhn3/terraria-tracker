@@ -139,7 +139,12 @@ const settingToDisplay = {
     "achievements": "Randomize Achievements",
     "CHECK_CHECKED": "Locations Checked",
     "CHECK_LOGICAL": "Locations Logically Available",
-    "CHECK_TOTAL": "Locations in Total"
+    "CHECK_TOTAL": "Locations in Total",
+    "earlyAchievements": "Randomize Early Achievements",
+    "normalAchievements": "Randomize Normal Achievements",
+    "grindyAchievements": "Randomize Grindy Achievements",
+    "fishingAchievements": "Randomize Fishing Achievements",
+    "getfixedboiAchievements": "Playing getfixedboi"
 };
 
 const postBoss = {
@@ -156,6 +161,7 @@ const postBoss = {
     ],
     "1": [
         "You and What Army",
+        "To Infinity... and Beyond!",
         "Real Estate Agent",
         "Robbing the Grave",
         "Big Booty",
@@ -237,12 +243,17 @@ const grindy = [
     "Deceiver of Fools",
     "Bulldozer",
     "There are Some Who Call Him...",
+    "Jolly Jamboree",
     "Sticky Situation",
     "Bloodbath",
     "Til Death...",
-    "Jolly Jamboree",
+    "And Good Riddance!",
     "Boots of the Hero",
-    "Gelatin World Tour"
+    "Black Mirror",
+    "Ankhumulation Complete",
+    "Gelatin World Tour",
+    "Head in the Clouds",
+    "Infinity +1 Sword"
 ];
 
 const fishing = [
@@ -252,4 +263,30 @@ const fishing = [
     "Glorious Golden Pole",
     "Fast and Fishious",
     "Supreme Helper Minion!"
+];
+
+const early = [
+    "Timber!!",
+    "Benched",
+    "Stop! Hammer Time!",
+    "Matching Attire",
+    "Fashion Statement",
+    "Ooo! Shiny!",
+    "No Hobo",
+    "Heavy Metal",
+    "Lucky Break",
+    "Star Power",
+    "You Can Do It!",
+    "Unusual Survival Strategies",
+    "Into Orbit",
+    "Watch Your Step!",
+    "Throwing Lines",
+    "Vehicular Manslaughter",
+    "Hey! Listen!",
+    "Hold on Tight!",
+    "Quiet Neighborhood"
+];
+
+const getfixedboiExcluded = [
+    "Sticky Situation"
 ];

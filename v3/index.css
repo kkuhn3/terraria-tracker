@@ -1,0 +1,82 @@
+html{
+	user-select: none;
+	background-color: #d3dfeb;
+}
+
+#top {
+    width: 100%;
+	display: flex;
+	background-color: #293541;
+}
+#left {
+	width: 33vw;
+}
+#details {
+	background-color: #111923;
+	color: silver;
+	flex-grow: 1;
+	box-shadow: 0 1px 0 0 #d3dfeb inset, 1px 0 0 0 #d3dfeb inset, -1px 0 0 0 #d3dfeb inset, 0 -1px 0 0 #d3dfeb inset;
+	img {
+		height: 80%;
+    	float: left;
+    	margin: 1%;
+	}
+	height: calc(33vw/9 + 33vw/13);
+	.header {
+		color: White;
+		font-family: serif;
+		font-size: 2.4vw;
+		line-height: initial;
+	}
+	.desc {
+		color: silver;
+		font-family: sans-serif;
+		font-size: 1.4vw;
+		margin-left: -10000px;
+		line-height: initial;
+	}
+	line-height: calc(33vw/9 + 33vw/13);
+	font-size: 2.5vw;
+}
+
+.setting {
+    width: calc(33vw/9);
+    height: calc(33vw/9);
+    background-size: contain;
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+.setting:hover {
+	transform: scale(1.2);
+	transition: 0.2s all ease-out;
+	z-index: 100;
+}
+.notImageImage {
+	color: silver;
+	font-size: 2vw;
+	text-align: center;
+	line-height: calc(33vw/8);
+	box-shadow: 0 1px 0 0 #d3dfeb inset, 1px 0 0 0 #d3dfeb inset, -1px 0 0 0 #d3dfeb inset, 0 -1px 0 0 #d3dfeb inset;
+	cursor: auto;
+}
+.item {
+	width: calc(33vw/13);
+	height: calc(33vw/13);
+	float: left;
+	cursor: pointer;
+	background-size: contain;
+	filter: grayscale(100%);
+	position: relative;
+}
+.item:hover {
+	transform: scale(1.2);
+	z-index: 100;
+}
+.itemchecked {
+	filter: grayscale(0%);
+}
+
+#bottom {
+	width: 100%;
+}

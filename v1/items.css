@@ -39,36 +39,36 @@
 }
 
 #goal._0 {
-	background-image: URL("images/achievements/Buckets of Bolts.png");
+	background-image: URL("../images/achievements/Buckets of Bolts.png");
 }
 #goal._1 {
-	background-image: URL("images/achievements/The Great Southern Plantkill.png");
+	background-image: URL("../images/achievements/The Great Southern Plantkill.png");
 }
 #goal._2 {
-	background-image: URL("images/achievements/Lihzahrdian Idol.png");
+	background-image: URL("../images/achievements/Lihzahrdian Idol.png");
 }
 #goal._3 {
-	background-image: URL("images/achievements/Fae Flayer.png");
+	background-image: URL("../images/achievements/Fae Flayer.png");
 }
 #goal._4 {
-	background-image: URL("images/achievements/Obsessive Devotion.png");
+	background-image: URL("../images/achievements/Obsessive Devotion.png");
 }
 #goal._5 {
-	background-image: URL("images/achievements/Champion of Terraria.png");
+	background-image: URL("../images/achievements/Champion of Terraria.png");
 }
 #goal._6 {
-	background-image: URL("images/achievements/Infinity +1 Sword.png");
+	background-image: URL("../images/achievements/Infinity +1 Sword.png");
 }
 
 #achievements._0 {
-	background-image: URL("images/items/achivements_0.png");
+	background-image: URL("../images/items/achivements_0.png");
 }
 #achievements._1 {
-	background-image: URL("images/items/achivements_1.png");
+	background-image: URL("../images/items/achivements_1.png");
 }
 #achievements._2 {
-	background-image: URL("images/items/achivements_2.png");
+	background-image: URL("../images/items/achivements_2.png");
 }
 #achievements._3 {
-	background-image: URL("images/items/achivements_3.png");
+	background-image: URL("../images/items/achivements_3.png");
 }

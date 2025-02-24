@@ -1,0 +1,275 @@
+.locwrapper {
+	float: left;
+	margin-top: 4px;
+	background-image: inherit;
+	background-size: cover;
+}
+.locwrapper.hidden {
+	display: none;
+}
+.first {
+	box-shadow: 
+		0 2px 0 0 black inset, 
+		2px 0 0 0 black inset, 
+		0 -2px 0 0 black inset,
+		0 3px 0 0 white inset, 
+		3px 0 0 0 white inset, 
+		0 -3px 0 0 white inset;
+	margin-left: 2px;
+}
+.middle {
+	box-shadow: 
+		0 2px 0 0 black inset, 
+		0 -2px 0 0 black inset,
+		0 3px 0 0 white inset, 
+		0 -3px 0 0 white inset;
+}
+.last {
+	box-shadow: 
+		0 2px 0 0 black inset, 
+		-2px 0 0 0 black inset, 
+		0 -2px 0 0 black inset,
+		0 3px 0 0 white inset, 
+		-3px 0 0 0 white inset, 
+		0 -3px 0 0 white inset;
+	margin-right: 2px;
+}
+.only {
+	box-shadow: 
+		0 2px 0 0 black inset, 
+		2px 0 0 0 black inset, 
+		-2px 0 0 0 black inset, 
+		0 -2px 0 0 black inset,
+		0 3px 0 0 white inset, 
+		3px 0 0 0 white inset, 
+		-3px 0 0 0 white inset, 
+		0 -3px 0 0 white inset;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.location {
+	width: 46px;
+	height: 46px;
+	background-size: contain;
+	float: left;
+	margin: 10px 17px 17px 10px;
+	cursor: pointer;
+	box-shadow: 
+		0 2px 0 0 black inset, 
+		2px 0 0 0 black inset, 
+		-2px 0 0 0 black inset, 
+		0 -2px 0 0 black inset,
+		5px 5px #ff8080,
+		7px 7px black;
+	background-color: #fff;
+	background-blend-mode: luminosity;
+}
+.event {
+	width: 52px;
+	height: 52px;
+	margin: 7px 14px 14px 7px;
+	box-shadow: 
+		0 2px 0 0 black inset, 
+		2px 0 0 0 black inset, 
+		-2px 0 0 0 black inset, 
+		0 -2px 0 0 black inset,
+		5px 5px #ff80ff,
+		7px 7px black;
+}
+.location:hover {
+	transform: scale(1.2);
+	box-shadow: 
+		0 2px 0 0 yellow inset, 
+		2px 0 0 0 yellow inset, 
+		-2px 0 0 0 yellow inset, 
+		0 -2px 0 0 yellow inset,
+		5px 5px #ff8080,
+		7px 7px yellow;
+}
+.event:hover {
+	box-shadow: 
+		0 2px 0 0 yellow inset, 
+		2px 0 0 0 yellow inset, 
+		-2px 0 0 0 yellow inset, 
+		0 -2px 0 0 yellow inset,
+		5px 5px #ff80ff,
+		7px 7px yellow;
+}
+.logical {
+	background-blend-mode: initial;
+	box-shadow: 
+		0 2px 0 0 black inset, 
+		2px 0 0 0 black inset, 
+		-2px 0 0 0 black inset, 
+		0 -2px 0 0 black inset,
+		5px 5px #80ff80,
+		7px 7px black;
+}
+.event.logical {
+	box-shadow: 
+		0 2px 0 0 black inset, 
+		2px 0 0 0 black inset, 
+		-2px 0 0 0 black inset, 
+		0 -2px 0 0 black inset,
+		5px 5px #80ffff,
+		7px 7px black;
+}
+.logical:hover {
+	box-shadow: 
+		0 2px 0 0 yellow inset, 
+		2px 0 0 0 yellow inset, 
+		-2px 0 0 0 yellow inset, 
+		0 -2px 0 0 yellow inset,
+		5px 5px #80ff80,
+		7px 7px yellow;
+}
+.event.logical:hover {
+	box-shadow: 
+		0 2px 0 0 yellow inset, 
+		2px 0 0 0 yellow inset, 
+		-2px 0 0 0 yellow inset, 
+		0 -2px 0 0 yellow inset,
+		5px 5px #80ffff,
+		7px 7px yellow;
+}
+.possible {
+	background-blend-mode: luminosity;
+	box-shadow: 
+		0 2px 0 0 black inset, 
+		2px 0 0 0 black inset, 
+		-2px 0 0 0 black inset, 
+		0 -2px 0 0 black inset,
+		5px 5px #8080ff,
+		7px 7px black;
+}
+.event.possible {
+	box-shadow: 
+		0 2px 0 0 black inset, 
+		2px 0 0 0 black inset, 
+		-2px 0 0 0 black inset, 
+		0 -2px 0 0 black inset,
+		5px 5px #c0c0ff,
+		7px 7px black;
+}
+.possible:hover {
+	box-shadow: 
+		0 2px 0 0 yellow inset, 
+		2px 0 0 0 yellow inset, 
+		-2px 0 0 0 yellow inset, 
+		0 -2px 0 0 yellow inset,
+		5px 5px #8080ff,
+		7px 7px yellow;
+}
+.event.possible:hover {
+	box-shadow: 
+		0 2px 0 0 yellow inset, 
+		2px 0 0 0 yellow inset, 
+		-2px 0 0 0 yellow inset, 
+		0 -2px 0 0 yellow inset,
+		5px 5px #c0c0ff,
+		7px 7px yellow;
+}
+.checked, .event.checked {
+	background-blend-mode: luminosity;
+	box-shadow: 
+		0 2px 0 0 black inset, 
+		2px 0 0 0 black inset, 
+		-2px 0 0 0 black inset, 
+		0 -2px 0 0 black inset,
+		5px 5px #808080,
+		7px 7px black;
+}
+.checked:hover, .event.checked:hover {
+	box-shadow: 
+		0 2px 0 0 yellow inset, 
+		2px 0 0 0 yellow inset, 
+		-2px 0 0 0 yellow inset, 
+		0 -2px 0 0 yellow inset,
+		5px 5px #808080,
+		7px 7px yellow;
+}
+
+#immediately {
+	background-image: url("../images/backgrounds/Forest_background_2.png");
+}
+#surface {
+	background-image: url("../images/backgrounds/Forest_background_7.png");
+}
+#fishing {
+	background-image: url("../images/backgrounds/Ocean_background_2.png");
+}
+#underground {
+	background-image: url("../images/backgrounds/Underground_background_4.png");
+}
+#aether {
+	background-image: url("../images/backgrounds/Aetherium_Brick_Wall_(placed).png");
+}
+#underworld {
+	background-image: url("../images/backgrounds/Cinder_Wall_(placed).png");
+}
+#evil {
+	background-image: url("../images/backgrounds/Underground_corruption_background_1.png");
+}
+#kingSlime {
+	background-image: url("../images/backgrounds/Slime_Block_Wall_(placed).png");
+}
+#bloodMoon {
+	background-image: url("../images/backgrounds/Flesh_Block_Wall_(placed).png");
+}
+#eyeOfCthulhu {
+	background-image: url("../images/backgrounds/Demonite_Brick_Wall_(placed).png");
+}
+#evilBoss {
+	background-image: url("../images/backgrounds/Underground_crimson_background_2.png");
+}
+#goblinArmy {
+	background-image: url("../images/backgrounds/Dark_Celestial_Brick_Wall_(placed).png");
+}
+#queenBee {
+	background-image: url("../images/backgrounds/Hive_Wall_(placed).png");
+}
+#skeletron {
+	background-image: url("../images/backgrounds/Pink_Brick_Wall_(placed).png");
+}
+#snow {
+	background-image: url("../images/backgrounds/Snow_biome_background_13.png");
+}
+#wallOfFlesh {
+	background-image: url("../images/backgrounds/Magma_Wall_(placed).png");
+}
+#pirates {
+	background-image: url("../images/backgrounds/Gold_Brick_Wall_(placed).png");
+}
+#queenSlime {
+	background-image: url("../images/backgrounds/Underground_hallow_background_1.png");
+}
+#mechs {
+	background-image: url("../images/backgrounds/Hallowed_Bar_(placed).png");
+}
+#plantera {
+	background-image: url("../images/backgrounds/Leafy_Jungle_Wall_(placed).png");
+}
+#temple {
+	background-image: url("../images/backgrounds/Lihzahrd_Brick_Wall_(placed).png");
+}
+#martianMadness {
+	background-image: url("../images/backgrounds/Martian_Conduit_Wall_(placed).png");
+}
+#dukeFishron {
+	background-image: url("../images/backgrounds/Ocean_background_6.png");
+}
+#pumpkinMoon {
+	background-image: url("../images/backgrounds/Pumpkin_Wall_(placed).png");
+}
+#frostMoon {
+	background-image: url("../images/backgrounds/Snow_Wall_(placed).png");
+}
+#frostLegion {
+	background-image: url("../images/backgrounds/Ice_Wall_(placed).png");
+}
+#empressOfLight {
+	background-image: url("../images/backgrounds/Hallowed_Crystalline_Wall_(placed).png");
+}
+#lunarEvents {
+	background-image: url("../images/backgrounds/Luminite_Brick_Wall_(placed).png");
+}

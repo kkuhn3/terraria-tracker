@@ -1,0 +1,52 @@
+#goal._0 {
+	background-image: URL("../images/achievements/Buckets of Bolts.png");
+}
+#goal._1 {
+	background-image: URL("../images/achievements/The Great Southern Plantkill.png");
+}
+#goal._2 {
+	background-image: URL("../images/achievements/Lihzahrdian Idol.png");
+}
+#goal._3 {
+	background-image: URL("../images/achievements/Fae Flayer.png");
+}
+#goal._4 {
+	background-image: URL("../images/achievements/Obsessive Devotion.png");
+}
+#goal._5 {
+	background-image: URL("../images/achievements/Champion of Terraria.png");
+}
+#goal._6 {
+	background-image: URL("../images/achievements/Infinity +1 Sword.png");
+}
+
+#earlyAchievements._0 {
+	background-image: URL("../images/items/noearly.png");
+}
+#earlyAchievements._1 {
+	background-image: URL("../images/achievements/Timber!!.png");
+}
+#normalAchievements._0 {
+	background-image: URL("../images/items/nonormal.png");
+}
+#normalAchievements._1 {
+	background-image: URL("../images/achievements/I Am Loot!.png");
+}
+#grindyAchievements._0 {
+	background-image: URL("../images/items/nogrindy.png");
+}
+#grindyAchievements._1 {
+	background-image: URL("../images/achievements/Bulldozer.png");
+}
+#fishingAchievements._0 {
+	background-image: URL("../images/items/nofishing.png");
+}
+#fishingAchievements._1 {
+	background-image: URL("../images/achievements/Glorious Golden Pole.png");
+}
+#getfixedboiAchievements._0 {
+	background-image: URL("../images/items/nogetfixedboi.png");
+}
+#getfixedboiAchievements._1 {
+	background-image: URL("../images/items/getfixedboi.png");
+}
