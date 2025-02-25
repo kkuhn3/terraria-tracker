@@ -96,12 +96,12 @@ function scaleLocs() {
 	for (let location of document.getElementsByClassName("location")) {
 		// 228 -> 150, 81 -> 46
 		if (location.classList.contains("event")) { 
-			location.style.width = Math.min(100, Math.max(52, Math.floor(.675 * Math.sqrt(1360 * 641 * .9 / CHECK_TOTAL.innerHTML) - 5)));
-			location.style.height = Math.min(100, Math.max(52, Math.floor(.675 * Math.sqrt(1360 * 641 * .9 / CHECK_TOTAL.innerHTML) - 5)));
+			location.style.width = Math.min(98, Math.max(52, Math.floor(.675 * Math.sqrt(window.innerWidth * window.innerHeight * .9 / CHECK_TOTAL.innerHTML) - 5)));
+			location.style.height = Math.min(98, Math.max(52, Math.floor(.675 * Math.sqrt(window.innerWidth * window.innerHeight * .9 / CHECK_TOTAL.innerHTML) - 5)));
 		}
 		else {
-			location.style.width = Math.min(94, Math.max(46, Math.floor(.675 * Math.sqrt(1360 * 641 * .9 / CHECK_TOTAL.innerHTML) - 11)));
-			location.style.height =Math.min(94,  Math.max(46, Math.floor(.675 * Math.sqrt(1360 * 641 * .9 / CHECK_TOTAL.innerHTML) - 11)));
+			location.style.width = Math.min(92, Math.max(46, Math.floor(.675 * Math.sqrt(window.innerWidth * window.innerHeight * .9 / CHECK_TOTAL.innerHTML) - 11)));
+			location.style.height =Math.min(92,  Math.max(46, Math.floor(.675 * Math.sqrt(window.innerWidth * window.innerHeight * .9 / CHECK_TOTAL.innerHTML) - 11)));
 		}
 	}
 }
