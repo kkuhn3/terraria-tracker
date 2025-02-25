@@ -78,6 +78,7 @@
 }
 .location:hover {
 	transform: scale(1.2);
+	transition: 0.2s all ease-out;
 	box-shadow: 
 		0 2px 0 0 yellow inset, 
 		2px 0 0 0 yellow inset, 
