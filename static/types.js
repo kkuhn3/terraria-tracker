@@ -252,7 +252,6 @@ const grindy = [
     "Black Mirror",
     "Ankhumulation Complete",
     "Gelatin World Tour",
-    "Head in the Clouds",
     "Infinity +1 Sword"
 ];
 
