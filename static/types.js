@@ -287,5 +287,6 @@ const early = [
 ];
 
 const getfixedboiExcluded = [
-    "Sticky Situation"
+    "Sticky Situation",
+    "Mecha Mayhem"
 ];

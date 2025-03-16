@@ -1,26 +1,19 @@
 function launch() {
 	let url = "../?"
-	if (PNAME.value && APORT.value) {
-		url = url + "&name=" + PNAME.value;
+	if (AHOST.value && ANAME.value && APORT.value) {
+		url = url + "&name=" + ANAME.value;
 		url = url + "&port=" + APORT.value;
+		if (AHOST.value !== "archipelago.gg") {
+			url = url + "&host=" + AHOST.value;
+		}
+		if (APASS.value) {
+			url = url + "&pass=" + APASS.value;
+		}
 	}
-	if (e.value) {
-		url = url + "&e=" + e.value;
-	}
-	if (n.value) {
-		url = url + "&n=" + n.value;
-	}
-	if (g.value) {
-		url = url + "&g=" + g.value;
-	}
-	if (f.value) {
-		url = url + "&f=" + f.value;
-	}
-	if (gfb.value) {
-		url = url + "&gfb=" + gfb.value;
-	}
-	if (t.value) {
-		url = url + "&t=" + t.value;
+	for (let select of document.getElementsByTagName('select')) {
+		if (select.value) {
+			url = url + '&' + select.id.toLowerCase() + '=' + select.value;
+		}
 	}
 	url = url.replace("?&", "?");
 	if (url === "../?") {
