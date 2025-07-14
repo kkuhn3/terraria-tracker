@@ -21,8 +21,8 @@ function connect() {
 			"tags" : ["Tracker"],
 			"version" : {
 				"major": 0,
-				"minor": 5,
-				"build": 1,
+				"minor": 6,
+				"build": 2,
 				"class": "Version"
 			},
 			"items_handling" : 7,
@@ -49,6 +49,7 @@ function connect() {
 					for (let location of command.checked_locations) {
 						gotLocation(location);
 					}
+					settingsFromSlotData(command.slot_data);
 					updateLocations();
 				}
 				else if (command.cmd === "ReceivedItems") {
@@ -92,3 +93,32 @@ function gotLocation(id) {
 	}
 }
 
+function settingsFromSlotData(slotData) {
+	setSettingClass(earlyAchievements, "_" + slotData.early_achievements);
+	setSettingClass(normalAchievements, "_" + slotData.normal_achievements);
+	setSettingClass(grindyAchievements, "_" + slotData.grindy_achievements);
+	setSettingClass(fishingAchievements, "_" + slotData.fishing_achievements);
+	setSettingClass(getfixedboiAchievements, "_" + slotData.getfixedboi);
+	if (slotData.goal[0] === "Mechanical Bosses") {
+		setSettingClass(goal, "_" + 0);
+	}
+	else if (slotData.goal[0] === "Plantera") {
+		setSettingClass(goal, "_" + 1);
+	}
+	else if (slotData.goal[0] === "Golem") {
+		setSettingClass(goal, "_" + 2);
+	}
+	else if (slotData.goal[0] === "Empress of Light") {
+		setSettingClass(goal, "_" + 3);
+	}
+	else if (slotData.goal[0] === "Lunatic Cultist") {
+		setSettingClass(goal, "_" + 4);
+	}
+	else if (slotData.goal[0] === "Moon Lord") {
+		setSettingClass(goal, "_" + 5);
+	}
+	else if (slotData.goal[0] === "Zenith") {
+		setSettingClass(goal, "_" + 6);
+	}
+	hidetomatch();
+}
