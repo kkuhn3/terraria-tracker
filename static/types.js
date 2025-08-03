@@ -251,8 +251,7 @@ const grindy = [
     "Boots of the Hero",
     "Black Mirror",
     "Ankhumulation Complete",
-    "Gelatin World Tour",
-    "Infinity +1 Sword"
+    "Gelatin World Tour"
 ];
 
 const fishing = [
